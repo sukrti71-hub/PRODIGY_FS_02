@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.login-box,
+.dashboard-box {
+  width: 420px;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-box {
+  width: 850px;
+  max-width: 95%;
+  margin: 40px auto;
+}
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #1e293b;
+  margin-top: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  margin: 9px 0;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.login-box button {
+  width: 100%;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#content {
+  margin-top: 25px;
+}
+
+.emp-card {
+  background: #f1f5f9;
+  padding: 18px;
+  margin-top: 15px;
+  border-radius: 12px;
+  text-align: left;
+  border-left: 5px solid #2563eb;
+}
+
+.emp-card p {
+  margin: 8px 0;
+}
+
+.edit-btn {
+  background: #16a34a;
+}
+
+.edit-btn:hover {
+  background: #15803d;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
